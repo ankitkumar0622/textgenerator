@@ -1,4 +1,4 @@
-//import logo from './logo.svg';
+//import logo from './logo.svg';x`
 import React , { useState } from "react";
 import './App.css';
 
@@ -20,9 +20,11 @@ const App = () => {
 return(
   <div className="App">
     <div className="quote">
+    <h1>Random Text Generator</h1>
     <h2>ID: {quotes.id}</h2>
     <p>Body: {quotes.body}</p>
      <button className="btn" onClick={getQuote}>Get Quote</button>
+    <div className="footer">&#169; Copyright Ankit Kumar</div>
   </div>
   </div>
 );
